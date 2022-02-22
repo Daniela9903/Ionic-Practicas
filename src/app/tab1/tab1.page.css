@@ -1,0 +1,17 @@
+ion-card {
+  background-color: #cdd6db;
+}
+
+ion-card ion-card-header {
+  background-color: #1a63b8;
+}
+
+ion-card ion-card-subtitle {
+  color: azure;
+  font-size: 20px;
+}
+
+ion-card ion-card-title {
+  color: azure;
+}
+/*# sourceMappingURL=tab1.page.css.map */

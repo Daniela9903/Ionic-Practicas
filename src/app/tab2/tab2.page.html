@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Mi primera APP
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,45 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">Información</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <!-- Icon start -->
+<ion-breadcrumbs>
+  <ion-breadcrumb href="#">
+    <ion-icon slot="start" name="home"></ion-icon>
+    Home
+  </ion-breadcrumb>
+  <ion-breadcrumb href="#files">
+    <ion-icon slot="start" name="folder"></ion-icon>
+    Files
+  </ion-breadcrumb>
+  <ion-breadcrumb href="#projects">
+    <ion-icon slot="start" name="folder"></ion-icon>
+    Projects
+  </ion-breadcrumb>
+  <ion-breadcrumb href="#user-research">
+    <ion-icon slot="start" name="folder"></ion-icon>
+    User Research
+  </ion-breadcrumb>
+  <ion-breadcrumb>
+    <ion-icon slot="start" name="document"></ion-icon>
+    Survey.txt
+  </ion-breadcrumb>
+</ion-breadcrumbs>
+
+<ion-card>
+  <img class="imagen" src="./assets/img/IMG_2454.jpg"/>
+  <ion-card-header>
+    <ion-card-subtitle>Foto</ion-card-subtitle>
+    <ion-card-title>Oaxaca, México</ion-card-title>
+  </ion-card-header>
+ 
+</ion-card>
+
+
+
+
+
 </ion-content>
